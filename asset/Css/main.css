@@ -1,0 +1,16 @@
+:root {
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  --font-primary: "Inter", sans-serif;
+  --font-secondary: "Cardo", sans-serif;
+  --main-color: #000000;
+  --color-primary: #fafafa;
+  --color-secondary: rgba(255, 255, 255, 0.6);
+  --color-btn: #d49da6;
+}
+body {
+  font-family: var(--font-default);
+  background-color: var(--main-color);
+}

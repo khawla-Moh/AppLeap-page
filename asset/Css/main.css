@@ -6,9 +6,7 @@
   --font-primary: "Inter", sans-serif;
   --font-secondary: "Cardo", sans-serif;
   --main-color: #000000;
-  --color-primary: #fafafa;
-  --color-secondary: rgba(255, 255, 255, 0.6);
-  --color-btn: #d49da6;
+  
 }
 body {
   font-family: var(--font-default);

@@ -19,6 +19,7 @@ body {
 /* Start nav */
 .header{
   background: url(../image/1.png);
+  color: var(--main-color);
 }
 .nav a {
   color: var(--main-color)  ;
@@ -36,3 +37,37 @@ li.nav-item{
   letter-spacing: 1px;
 }
 /* End nav */
+/* start inner-header */
+.inner-box-header button,h2,p{
+  color: var(--main-color);
+  
+}
+.inner-box-header h2
+{
+  letter-spacing: 2px;
+}
+.inner-box-header P{
+  font-size: 15px;
+}
+.header-box-button button{
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.btn1{
+  background-color: #7c77f7;
+  
+}
+.btn1::before{
+  content: '';
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.4s;
+  transform: scale(1,0.5);
+}
+.btn1:hover{
+  background:#222222;
+}
+.btn2{
+  border: 2px solid var(--main-color);
+}
+/* end inner-header */

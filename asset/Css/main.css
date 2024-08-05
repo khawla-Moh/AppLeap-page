@@ -1,14 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-default:"Poppins", sans-serif;
 
   --font-primary: "Inter", sans-serif;
   --font-secondary: "Cardo", sans-serif;
-  --main-color: #000000;
+  --main-color: #fff;
+
   
 }
 body {
   font-family: var(--font-default);
-  background-color: var();
+  font-size: 17px;
+  font-weight: 700;
+  
 }
+/* Start nav */
+.header{
+  background: url(../image/1.png);
+}
+.nav a {
+  color: var(--main-color)  ;
+
+}
+li.nav-item{
+  margin:auto 7px;
+}
+.button-box button{
+  background: #7e7ae6;
+  
+  color: var(--main-color);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+/* End nav */

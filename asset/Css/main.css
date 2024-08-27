@@ -20,7 +20,8 @@ body {
 .header{
   background: url(../image/1.png);
   color: var(--main-color);
-}
+  background-repeat: no-repeat;  
+    }
 .nav a {
   color: var(--main-color)  ;
 
@@ -71,3 +72,10 @@ li.nav-item{
   border: 2px solid var(--main-color);
 }
 /* end inner-header */
+
+
+/* start logo-section */
+.logo-section{
+ 
+}
+/* end logo-section */
